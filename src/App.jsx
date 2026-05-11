@@ -6,7 +6,7 @@ export default function App() {
 
   // The Canva embed URL is created by taking the view URL and appending ?embed
   const canvaEmbedUrl =
-    'https://www.canva.com/design/DAHJW0NEUZI/RwSQxD7kInH3frEyNfQ9rw/edit';
+    'https://www.canva.com/design/DAHJW0NEUZI/7oPv_PbzUGvpF5iWlcd_og/view?embed';
 
   return (
     <div className="w-screen h-screen bg-zinc-950 flex items-center justify-center overflow-hidden relative">
