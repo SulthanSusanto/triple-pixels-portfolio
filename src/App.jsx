@@ -5,7 +5,8 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   // The Canva embed URL is created by taking the view URL and appending ?embed
-  const canvaEmbedUrl = "https://www.canva.com/design/DAHFqpZxEhk/sH0zbkqMFwagFoYXNvN51w/view?embed";
+  const canvaEmbedUrl =
+    'https://www.canva.com/design/DAHJW0NEUZI/RwSQxD7kInH3frEyNfQ9rw/edit';
 
   return (
     <div className="w-screen h-screen bg-zinc-950 flex items-center justify-center overflow-hidden relative">
@@ -13,7 +14,9 @@ export default function App() {
       {isLoading && (
         <div className="absolute inset-0 flex flex-col items-center justify-center text-zinc-400 space-y-4 z-10">
           <Loader2 className="w-8 h-8 animate-spin text-zinc-100" />
-          <p className="text-sm font-medium tracking-wide">Loading Portfolio...</p>
+          <p className="text-sm font-medium tracking-wide">
+            Loading Portfolio...
+          </p>
         </div>
       )}
 
