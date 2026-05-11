@@ -8,6 +8,8 @@ export default function App() {
   const canvaEmbedUrl =
     'https://www.canva.com/design/DAHJW0NEUZI/7oPv_PbzUGvpF5iWlcd_og/view?embed';
 
+  console.log('hallo');
+
   return (
     <div className="w-screen h-screen bg-zinc-950 flex items-center justify-center overflow-hidden relative">
       {/* Loading State */}
